@@ -1,0 +1,29 @@
+.containerInitial {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 5s ease;
+}
+
+.title {
+    color: #fff;
+}
+
+.buttonInitial {
+    background-color: #E1035A;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 65px;
+    cursor: pointer;
+    color: #000;
+    transition: background-image 0.3s ease, padding 0.2s ease;
+    font-weight: bold;    
+    
+}
+
+.buttonInitial:hover {
+    background-image: linear-gradient(to bottom left, #E1035A, #f946ab);
+    padding: 10px 80px;
+}
