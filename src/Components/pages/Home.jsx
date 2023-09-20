@@ -101,7 +101,7 @@ const targetColors = ['#0B0531', '#040113','#080427','#06031d','#020009'];
     const [selectedOptionIndex, setSelectedOptionIndex] = useState(0);
     const handleSelectChange = (event) => {
       const selectedIndex = parseInt(event.target.value);
-      setSelectedOptionIndex(selectedIndex - 1);
+      setSelectedOptionIndex(selectedIndex);
     };
 
     
